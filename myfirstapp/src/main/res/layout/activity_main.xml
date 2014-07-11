@@ -12,5 +12,18 @@
         android:text="@string/hello_world"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <AnalogClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/analogClock" android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
+    <TextClock
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textClock" android:layout_below="@+id/analogClock" android:layout_centerHorizontal="true"/>
+    <CalendarView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/calendarView"
+            android:layout_below="@+id/textClock" android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
